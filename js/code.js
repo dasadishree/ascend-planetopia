@@ -21,24 +21,23 @@ function nextlandscape()
     console.log(state.j);
     var shoe=document.getElementById("shoes");
     if(state.j===0){
-    shoe.setAttribute("class","shoe1");
+    shoe.setAttribute("class","cloudy");
         state.j++;
         console.log(state.j);
     }
     else
      if(state.j===1){
-    shoe.setAttribute("class","shoe2");
+    shoe.setAttribute("class","jupiter");
          state.j++;
          console.log(state.j);
     }
     else
      if(state.j===2){
-    shoe.setAttribute("class","shoe3");
+    shoe.setAttribute("class","scales");
          state.j=0;
     }
     
 }
-
 function nextring()
 {
     console.log("inside function nexthair");
