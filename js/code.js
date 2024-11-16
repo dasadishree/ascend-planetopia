@@ -11,34 +11,9 @@ function init()
 }
 
 var state = {
-    i : 0,
     j:0,
     k:0
 };
-
-function nextdress()
-{
-    console.log("inside function nextdress");
-    console.log(state.i);
-    var dress=document.getElementById("clothes");
-    if(state.i===0){
-    dress.setAttribute("class","dress1");
-        state.i++;
-        console.log(state.i);
-    }
-    else
-     if(state.i===1){
-    dress.setAttribute("class","dress2");
-         state.i++;
-         console.log(state.i);
-    }
-    else
-     if(state.i===2){
-    dress.setAttribute("class","dress3");
-         state.i=0;
-    }
-    
-}
 
 function nextlandscape()
 {
@@ -94,6 +69,7 @@ function nextring()
    }
     
 }
+
 document.getElementById('colorPicker').addEventListener('input', function() {
     const circle = document.getElementById('circle');
     circle.style.backgroundColor = this.value;
