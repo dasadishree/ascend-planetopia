@@ -16,6 +16,8 @@ body{
     background-size: cover;
 }
 #background{
+    display: flex;
+    align-items: center;
     position:absolute;
     width:555px;
     height:987px;
@@ -131,3 +133,17 @@ body{
     width: 200px;
     height: 200px;
 }
+
+#circleContainer{
+    background: linear-gradient(#A279CC, #7788DA, #5296E4);
+    width: 680px;
+    height: 750px;
+    border-radius: 5rem;
+}
+
+.btn:hover {
+    transform:scale(1.2);
+    z-index: 102;
+    transition: 0.3s;
+}
+

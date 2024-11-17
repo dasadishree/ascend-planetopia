@@ -74,3 +74,4 @@ document.getElementById('colorPicker').addEventListener('input', function() {
     circle.style.backgroundColor = this.value;
 });
 
+
