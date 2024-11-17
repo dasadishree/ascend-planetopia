@@ -75,3 +75,10 @@ document.getElementById('colorPicker').addEventListener('input', function() {
 });
 
 
+document.getElementById('planetForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting in the traditional way
+    const name = document.getElementById('nameInput').value;
+    const heading = document.getElementById('planetHeading');
+    heading.textContent = `Planet ${name}`;
+    heading.style.display = 'block'; // Show the heading
+});
