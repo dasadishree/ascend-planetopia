@@ -164,23 +164,15 @@ h3 {
 }
 #questionContainer{
     background: #515c91;
-    width: 900px;
+    width: 500px;
     height: 300px;
     border-radius: 2rem;
-    position:absolute;
+    position:fixed;
     right:600px;
     top:150px;
 }
 
-#namenContainer{
-    background: #515c91;
-    width: 900px;
-    height: 300px;
-    border-radius: 2rem;
-    position:absolute;
-    right:600px;
-    top:100px;
-}
+
 
 label{
     position:relative;
