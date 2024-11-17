@@ -164,10 +164,10 @@ h3 {
 }
 #questionContainer{
     background: #515c91;
-    width: 500px;
+    width: 900px;
     height: 300px;
     border-radius: 2rem;
-    position:fixed;
+    position:absolute;
     right:600px;
     top:150px;
 }
