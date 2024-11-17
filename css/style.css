@@ -122,9 +122,12 @@ body{
 }
 
 #colorPicker{
-    position: absolute;
-    right: -350px;
-    top:400px;
-    width:200px;
-    height:200px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed; /* Keeps the color picker fixed relative to the viewport */
+    right: 80px; /* Adds space between the color picker and the right edge of the screen */
+    top: 50%; /* Centers the color picker vertically */
+    transform: translateY(-50%); /* Adjusts the vertical centering */
+    width: 200px;
+    height: 200px;
 }
