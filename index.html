@@ -6,22 +6,26 @@
     <title> Dress Up Game</title>
 <body>
     <div id="container">
-    <div id="background">
-    <div id="circleContainer">
-     <div id="circle"></div>
-    </div>
-     <input type="color" id="colorPicker">
-    <script src="script.js"></script>
-    <div id="shoes"> </div>    
-    <div id="rings"></div> 
-    </div>
+        <div id="background">
+            <div id="circleContainer">
+                 <div id="circle"></div>
+             </div>
+            <input type="color" id="colorPicker">
+            <script src="script.js"></script>
+            <div id="shoes"> </div>    
+            <div id="rings"></div> 
+        </div>
         
         
-       
-        <input type="button" value="NEXT" class="btn" id="nextring" onclick="nextring()">
-        <input type="button" value="NEXT" class="btn" id="nextlandscape" onclick="nextlandscape()">
+        <div id="ringButtonContainer">
+            <h3>Select your planet's rings: </h3>
+            <input type="button" value="NEXT" class="btn" id="nextring" onclick="nextring()">
+        </div>
+        <div id="landscapeButtonContainer">
+            <h3>Select your planet's landscape/exterior look: </h3>
+            <input type="button" value="NEXT" class="btn" id="nextlandscape" onclick="nextlandscape()">
+        </div>
     </div>
-    
     <script src="js/code.js"></script>
     
     </body>
