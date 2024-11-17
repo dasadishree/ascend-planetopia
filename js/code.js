@@ -73,3 +73,4 @@ document.getElementById('colorPicker').addEventListener('input', function() {
     const circle = document.getElementById('circle');
     circle.style.backgroundColor = this.value;
 });
+
